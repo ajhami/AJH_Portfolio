@@ -1,4 +1,239 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #252424;
+    color: #f3f3f3ec;
+}
+
+.ajh {
+    height: 10.0rem;
+    width: 10.0rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tb_name, .tb_title {
+    display: none;
+}
+
+/* DEFAULT SIZE */
+.topic_box {
+    height: 20.0rem;
+    margin-top: 2.0rem;
+}
+
+/* CLICK SIZE */
+.topic_box {
+    height: 40.0rem;
+}
+
+#about_box {
+    background-image: url(./../images/dunes_profile_sm.jpg);
+}
+
+#projects_box {
+    background-image: url(./../images/dunes_profile_sm.jpg);
+}
+
+#contact_box {
+    background-image: url(./../images/dunes_profile_sm.jpg);
+}
+
+
+/* DEFAULT SIZE */
+#about_box, #projects_box, #contact_box {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px)
+            opacity(0.5)
+            grayscale(100%);
+}
+
+/* CLICK SIZE */
+#about_box, #projects_box, #contact_box {
+    height: 50%;
+}
+
+
+#about_box:hover, #projects_box:hover, #contact_box:hover {
+    filter: none;
+}
+
+/* DEFAULT POSITION */
+.topic_title {
+    color: #f3f3f3ec;
+    background-color: #b10202c4;
+    padding: 1.0rem 4.0rem 1.0rem 0.75rem;
+    position: relative;
+    bottom: 15.0rem;
+}
+
+/* CLICK POSITION */
+.topic_title {
+    bottom: 35.0rem;
+}
+
+#about_content, #projects_content, #contact_content {
+    height: 50%;
+    width: 100%;
+    background-color: #b10202c4;
+}
+
+#about_p, #projects_p, #contact_p {
+    float: left;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    background-color: #ffffff;
+}
+
+#about_select, #projects_select, #contact_select {
+    float: left;
+    width: 50%;
+    height: 15%;
+    margin-top: 2.5%;
+    margin-left: 47.5%;
+    background-color: #0aa012;
+}
+
+/* .topic_box:hover {
+    filter: none;
+} */
+
+#content_lg {
+    display: none;
+}
+
+
+
+hr {
+    color: #f3f3f3ec;
+    margin-top: 6.0rem;
+    width: 60%;
+}
+.social_media_buttons {
+    text-align: center;
+}
+
+.fa {
+    color: #f3f3f3ec;
+    margin: 0 2.0rem;
+    font-size: 3.0rem;
+}
+
+.fa:hover {
+    color: #b10202c4;
+}
+
+
+
+
+
+/* Switching from small to large screens */
+@media (min-width: 550px) {
+
+    .ajh {
+        margin-left: 2.0rem;
+        /* margin-right: auto; */
+        float: left;
+    }
+
+    .tb_name {
+        display: block;
+        float: left;
+        margin: 3.0rem 0 0 2.0rem;
+    }
+
+    .tb_title {
+        clear: both;
+        color: #bec5c7c4;
+        display: block;
+        font-style: italic;
+        margin-left: 2.0rem;
+    }
+
+    .topic_box {
+        margin-top: 0;
+        height: 45.0rem;
+    }
+
+    .topic_title {
+        bottom: 10.0rem;
+    }
+
+    #about_box {
+        background-image: url(./../images/dunes_profile_lg.jpg);
+    }
+
+    #projects_box {
+        background-image: url(./../images/dunes_profile_lg.jpg);
+    }
+    
+    #contact_box {
+        background-image: url(./../images/dunes_profile_lg.jpg);
+    }
+
+    .topic_title {
+        position: relative;
+        bottom: 40.0rem;
+    }
+
+    #about_box, #projects_box, #contact_box {
+        height: 100%
+    }
+
+    #about_content, #projects_content, #contact_content {
+        display: none;
+    }
+
+    #content_lg {
+        display: block;
+        background-color: #b10202c4;
+        margin-top: 2.0rem;
+        width: 100%;
+        height: 20.0rem;
+    }
+
+    #content_pic_div {
+        float: left;
+        height: 100%;
+        width: 30%;
+        background-color: #ffffff;
+    }
+
+    #content_img {
+        margin-left: 30%;
+        margin-top: 8%;
+        width: 50%;
+        height: 78%;
+        padding-right: 19.5%;
+        border-right: solid 0.25rem #000000;
+    }
+
+    #content_text_div {
+        float: left;
+        height: 100%;
+        width: 60%;
+        margin: 0 5%;
+        background-color: #ecc100a2;
+    }
+
+    #content_p {
+        height: 60%;
+        width: 90%;
+        margin-top: 4%;
+        background-color: #10129e;
+    }
+
+    #content_select {
+        height: 20%;
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 50%;
+        background-color: #f10ff1e3;
+    }
+
 }

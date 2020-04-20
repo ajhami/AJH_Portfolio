@@ -6,13 +6,80 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Metadata Title -->
     <link rel="icon" href="./assets/images/initial_logo.png">
     <title>Hi, I'm Alex!</title>
 </head>
 <body>
-    Hello, World!
+    <section class="row u-full-width titlebar">
+        <div class="twelve columns">
+            <img class="ajh" src="./assets/images/initial_logo.png" alt="AJH Logo">
+            <h3 class="tb_name">Alexander James Hamilton</h3>
+            <p class="tb_title">Web Developer</p>
+        </div>
+    </section>
+    <div class="container">
+        <!-- Topic Boxes -->
+        <section class="row">
+            <div class="one-third column topic_box">
+                <div id="about_box"></div>
+                <!-- Small Screen About Content Section -->
+                <div id="about_content">
+                    <div id="about_p"></div>
+                    <div id="about_select"></div>
+                </div>
+                <span class="topic_title">About Me</span>
+            </div>
+
+            <div class="one-third column topic_box">
+                <div id="projects_box"></div>
+                <!-- Small Screen Projects Content Section -->
+                <div id="projects_content">
+                    <div id="projects_p"></div>
+                    <div id="projects_select"></div>
+                </div>
+                <span class="topic_title">Projects</span>
+            </div>
+
+            <div class="one-third column topic_box">
+                <div id="contact_box"></div>
+                <!-- Small Screen Contact Content Section -->
+                <div id="contact_content">
+                    <div id="contact_p"></div>
+                    <div id="contact_select"></div>
+                </div>
+                <span class="topic_title">Contact Me</span>
+            </div>
+        </section>
+
+
+        <!-- Large Screen Content Section -->
+        <section class="row">
+            <div id="content_lg" class="twelve columns">
+                <div id="content_pic_div">
+                    <img id="content_img" src="./assets/images/dunes_profile_sm.jpg"></img>
+                </div>
+                <div id="content_text_div">
+                    <div id="content_p"></div>
+                    <div id="content_select"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+        <!-- Social Links Footer -->
+        <section class="row">
+            <div class="twelve columns social_media_buttons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </section>
+    </div>
 
 
 
