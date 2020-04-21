@@ -51,6 +51,20 @@ body {
             grayscale(100%);
 }
 
+.active {
+    filter: none;
+}
+
+.inactive {
+    filter: blur(1px)
+    opacity(0.5)
+    grayscale(100%);
+}
+
+.inactive:hover {
+    filter: none;
+}
+
 /* CLICK SIZE */
 /* #about_box, #projects_box, #contact_box {
     height: 50%;
@@ -251,6 +265,7 @@ hr {
         height: 60%;
         width: 90%;
         margin-top: 4%;
+        font-size: 1.5rem;
     }
 
     #content_select {

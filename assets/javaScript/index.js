@@ -72,7 +72,16 @@ var clearContentLarge = function() {
 
 var displayAboutContent = function() {
 
-    $("#about_box").css("filter", "none");
+    // $("#about_box").css("filter", "none");
+    // $("#projects_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    // $("#contact_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    
+    $("#about_box").removeClass("inactive");
+    $("#about_box").addClass("active");
+    $("#projects_box").removeClass("active");
+    $("#projects_box").addClass("inactive");
+    $("#contact_box").removeClass("active");
+    $("#contact_box").addClass("inactive");
 
     if($(window).width() <= 534){
         $("#about_main").css("height", "40.0rem");
@@ -94,7 +103,18 @@ var displayAboutContent = function() {
 
 var displayProjectsContent = function() {
 
-    $("#projects_box").css("filter", "none");
+    // $("#projects_box").css("filter", "none");
+    // $("#about_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    // $("#contact_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    // $("#about_box:hover").css("filter", "none");
+    // $("#contact_box:hover").css("filter", "none");
+    
+    $("#projects_box").removeClass("inactive");
+    $("#projects_box").addClass("active");
+    $("#about_box").removeClass("active");
+    $("#about_box").addClass("inactive");
+    $("#contact_box").removeClass("active");
+    $("#contact_box").addClass("inactive");
 
     if($(window).width() <= 534){
         $("#projects_main").css("height", "40.0rem");
@@ -116,7 +136,16 @@ var displayProjectsContent = function() {
 
 var displayContactContent = function() {
 
-    $("#contact_box").css("filter", "none");
+    // $("#contact_box").css("filter", "none");
+    // $("#about_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    // $("#projects_box").css("filter", "blur(1px) opacity(0.5) grayscale(100%)");
+    
+    $("#contact_box").removeClass("inactive");
+    $("#contact_box").addClass("active");
+    $("#projects_box").removeClass("active");
+    $("#projects_box").addClass("inactive");
+    $("#about_box").removeClass("active");
+    $("#about_box").addClass("inactive");
 
     if($(window).width() <= 534){
         $("#contact_main").css("height", "40.0rem");
