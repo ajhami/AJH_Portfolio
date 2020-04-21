@@ -27,15 +27,15 @@ body {
 } */
 
 #about_box {
-    background-image: url(./../images/dunes_profile_sm.jpg);
+    background-image: url(./../images/about_distant_shot_sm.jpg);
 }
 
 #projects_box {
-    background-image: url(./../images/dunes_profile_sm.jpg);
+    background-image: url(./../images/project_main_sm.jpg);
 }
 
 #contact_box {
-    background-image: url(./../images/dunes_profile_sm.jpg);
+    background-image: url(./../images/contact_main_sm.jpg);
 }
 
 
@@ -88,7 +88,7 @@ body {
     height: 70%;
     margin-left: 10%;
     margin-top: 2.5%;
-    background-color: #ffffff;
+    font-size: 1.1rem;
 }
 
 #about_select, #projects_select, #contact_select {
@@ -97,7 +97,6 @@ body {
     height: 15%;
     margin-top: 2.5%;
     margin-left: 47.5%;
-    background-color: #0aa012;
 }
 
 /* .topic_box:hover {
@@ -107,8 +106,6 @@ body {
 #content_lg {
     display: none;
 }
-
-
 
 hr {
     color: #f3f3f3ec;
@@ -135,26 +132,24 @@ hr {
     height: 100%;
     margin-left: 2.5%;
     margin-right: 5%;
-    background-color: #00ff15;
 }
 
 #about_option2box, #projects_option2box, #contact_option2box {
     float: left;
     width: 45%;
     height: 100%;
-    background-color: #7700ff;
 }
 
-#about_option1box, #projects_option1box, #contact_option1box, #about_option2box, #projects_option2box, #contact_option2box {
+#aboutOption1, #projectsOption1, #contactOption1, #aboutOption2, #projectsOption2, #contactOption2 {
     text-align: center;
     justify-items: center;
     color: #f3f3f3ec;
+    font-size: 1.0rem;
 }
 
-#about_option1box:hover, #projects_option1box:hover, #contact_option1box:hover, #about_option2box:hover, #projects_option2box:hover, #contact_option2box:hover {
-    color: #b10202c4;
+#aboutOption1:hover, #projectsOption1:hover, #contactOption1:hover, #aboutOption2:hover, #projectsOption2:hover, #contactOption2:hover {
+    color: #7700ff;
 }
-
 
 
 
@@ -198,15 +193,15 @@ hr {
     } */
 
     #about_box {
-        background-image: url(./../images/dunes_profile_lg.jpg);
+        background-image: url(./../images/about_distant_shot_lg.jpg);
     }
 
     #projects_box {
-        background-image: url(./../images/dunes_profile_lg.jpg);
+        background-image: url(./../images/project_main_lg.jpg);
     }
     
     #contact_box {
-        background-image: url(./../images/dunes_profile_lg.jpg);
+        background-image: url(./../images/contact_main_lg.jpg);
     }
 
     #about_title, #projects_title, #contact_title{
@@ -234,7 +229,6 @@ hr {
         float: left;
         height: 100%;
         width: 30%;
-        background-color: #ffffff;
     }
 
     #content_img {
@@ -251,14 +245,12 @@ hr {
         height: 100%;
         width: 60%;
         margin: 0 5%;
-        background-color: #ecc100a2;
     }
 
     #content_p {
         height: 60%;
         width: 90%;
         margin-top: 4%;
-        background-color: #10129e;
     }
 
     #content_select {
@@ -266,7 +258,6 @@ hr {
         width: 50%;
         margin-top: 2%;
         margin-left: 50%;
-        background-color: #f10ff1e3;
     }
 
     #option1box {
@@ -275,14 +266,12 @@ hr {
         height: 100%;
         margin-left: 2.5%;
         margin-right: 5%;
-        background-color: #00ff15;
     }
 
     #option2box {
         float: left;
         width: 45%;
         height: 100%;
-        background-color: #7700ff;
     }
 
     #option1, #option2 {
@@ -292,7 +281,7 @@ hr {
     }
 
     #option1:hover, #option2:hover {
-        color: #b10202c4;
+        color: #7700ff;
     }
 
 }
