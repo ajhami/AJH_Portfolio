@@ -16,15 +16,15 @@ body {
 }
 
 /* DEFAULT SIZE */
-.topic_box {
+#about_main, #projects_main, #contact_main {
     height: 20.0rem;
-    margin-top: 2.0rem;
+    /* margin-top: 2.0rem; */
 }
 
 /* CLICK SIZE */
-.topic_box {
+/* #about_main, #projects_main, #contact_main {
     height: 40.0rem;
-}
+} */
 
 #about_box {
     background-image: url(./../images/dunes_profile_sm.jpg);
@@ -52,9 +52,9 @@ body {
 }
 
 /* CLICK SIZE */
-#about_box, #projects_box, #contact_box {
+/* #about_box, #projects_box, #contact_box {
     height: 50%;
-}
+} */
 
 
 #about_box:hover, #projects_box:hover, #contact_box:hover {
@@ -62,7 +62,7 @@ body {
 }
 
 /* DEFAULT POSITION */
-.topic_title {
+#about_title, #projects_title, #contact_title {
     color: #f3f3f3ec;
     background-color: #b10202c4;
     padding: 1.0rem 4.0rem 1.0rem 0.75rem;
@@ -71,11 +71,12 @@ body {
 }
 
 /* CLICK POSITION */
-.topic_title {
+/* .topic_title {
     bottom: 35.0rem;
-}
+} */
 
 #about_content, #projects_content, #contact_content {
+    display: none;
     height: 50%;
     width: 100%;
     background-color: #b10202c4;
@@ -128,12 +129,41 @@ hr {
     color: #b10202c4;
 }
 
+#about_option1box, #projects_option1box, #contact_option1box {
+    float: left;
+    width: 45%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    background-color: #00ff15;
+}
+
+#about_option2box, #projects_option2box, #contact_option2box {
+    float: left;
+    width: 45%;
+    height: 100%;
+    background-color: #7700ff;
+}
+
+#about_option1box, #projects_option1box, #contact_option1box, #about_option2box, #projects_option2box, #contact_option2box {
+    text-align: center;
+    justify-items: center;
+    color: #f3f3f3ec;
+}
+
+#about_option1box:hover, #projects_option1box:hover, #contact_option1box:hover, #about_option2box:hover, #projects_option2box:hover, #contact_option2box:hover {
+    color: #b10202c4;
+}
 
 
 
 
 /* Switching from small to large screens */
 @media (min-width: 550px) {
+
+    #about_main, #projects_main, #contact_main {
+        height: 45.0rem;
+    }
 
     .ajh {
         margin-left: 2.0rem;
@@ -154,15 +184,18 @@ hr {
         font-style: italic;
         margin-left: 2.0rem;
     }
-
+/* 
     .topic_box {
         margin-top: 0;
         height: 45.0rem;
-    }
+    } */
 
-    .topic_title {
+    /* #about_main, #projects_main, #contact_main {
+        height: 45.0rem;
+    } */
+    /* .topic_title {
         bottom: 10.0rem;
-    }
+    } */
 
     #about_box {
         background-image: url(./../images/dunes_profile_lg.jpg);
@@ -176,7 +209,7 @@ hr {
         background-image: url(./../images/dunes_profile_lg.jpg);
     }
 
-    .topic_title {
+    #about_title, #projects_title, #contact_title{
         position: relative;
         bottom: 40.0rem;
     }
@@ -190,7 +223,7 @@ hr {
     }
 
     #content_lg {
-        display: block;
+        display: none;
         background-color: #b10202c4;
         margin-top: 2.0rem;
         width: 100%;
@@ -234,6 +267,32 @@ hr {
         margin-top: 2%;
         margin-left: 50%;
         background-color: #f10ff1e3;
+    }
+
+    #option1box {
+        float: left;
+        width: 45%;
+        height: 100%;
+        margin-left: 2.5%;
+        margin-right: 5%;
+        background-color: #00ff15;
+    }
+
+    #option2box {
+        float: left;
+        width: 45%;
+        height: 100%;
+        background-color: #7700ff;
+    }
+
+    #option1, #option2 {
+        text-align: center;
+        justify-items: center;
+        color: #f3f3f3ec;
+    }
+
+    #option1:hover, #option2:hover {
+        color: #b10202c4;
     }
 
 }
