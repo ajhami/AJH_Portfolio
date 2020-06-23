@@ -26,53 +26,21 @@ body {
     width: 60%;
 }
 
-/* DEFAULT SIZE */
 .portfolio_item {
-    height: 20.0rem;
-    width: 100%;
-    /* margin-top: 2.0rem; */
+    margin-bottom: 1.0rem;
 }
 
-/* CLICK SIZE */
-/* #about_main, #projects_main, #contact_main {
-    height: 40.0rem;
-} */
-
-#pantree_img {
-    background-image: url(./../images/pantree_preview_lg.png);
+#pantree_section {
+    /* height: 20.0rem; */
+    margin-top: 3.0rem;
 }
-
-#projects_box {
-    background-image: url(./../images/project_main_sm.jpg);
-}
-
-#contact_box {
-    background-image: url(./../images/contact_main_sm.jpg);
-}
-
 
 /* DEFAULT SIZE */
-#pantree_img {
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.img_section {
+    height: 20.0rem;
 }
 
-
-/* CLICK SIZE */
-/* #about_box, #projects_box, #contact_box {
-    height: 50%;
-} */
-
-
-#about_box:hover, #projects_box:hover, #contact_box:hover {
-    filter: none;
-}
-
-/* DEFAULT POSITION */
-#about_title, #projects_title, #contact_title {
+.image_label {
     color: #f3f3f3ec;
     background-color: #541177;
     padding: 1.0rem 4.0rem 1.0rem 0.75rem;
@@ -80,40 +48,55 @@ body {
     bottom: 15.0rem;
 }
 
-/* CLICK POSITION */
-/* .topic_title {
-    bottom: 35.0rem;
-} */
+#pantree_img_section {
+    float: left;
+}
 
-#about_content, #projects_content, #contact_content {
-    display: none;
-    height: 50%;
+#readme_img_section {
+    float: right;
+}
+
+#pantree_img {
+    background-image: url(./../images/pantree_preview_lg.png);
+}
+
+#readme_img {
+    background-image: url(./../images/readme_preview_lg.png);
+}
+
+#celeb_img {
+    background-image: url(./../images/celeb_preview_lg.png);
+}
+
+/* DEFAULT SIZE */
+#pantree_img, #readme_img, #celeb_img {
+    height: 100%;
     width: 100%;
-    background-color: #541177;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px)
+            opacity(0.5)
+            grayscale(50%);
 }
 
-#about_p, #projects_p, #contact_p {
-    float: left;
-    width: 80%;
-    height: 70%;
-    margin-left: 10%;
-    margin-top: 2.5%;
-    font-size: 1.1rem;
-}
-
-#about_select, #projects_select, #contact_select {
-    float: left;
-    width: 50%;
-    height: 15%;
-    margin-top: 2.5%;
-    margin-left: 47.5%;
-}
-
-/* .topic_box:hover {
+#pantree_img:hover, #readme_img:hover, #celeb_img:hover {
     filter: none;
-} */
+}
 
-#content_lg {
+.learn_more_atag {
+    display: none;
+}
+
+.learn_more_atag:hover {
+    display: none;
+}
+
+.portfolio_item_title, .portfolio_item_text {
+    display: none;
+}
+
+.sep_hr {
     display: none;
 }
 
@@ -136,33 +119,6 @@ body {
 .fa:hover {
     color: #541177;
 }
-
-#about_option1box, #projects_option1box, #contact_option1box {
-    float: left;
-    width: 45%;
-    height: 100%;
-    margin-left: 2.5%;
-    margin-right: 5%;
-}
-
-#about_option2box, #projects_option2box, #contact_option2box {
-    float: left;
-    width: 45%;
-    height: 100%;
-}
-
-#aboutOption1, #projectsOption1, #contactOption1, #aboutOption2, #projectsOption2, #contactOption2 {
-    text-align: center;
-    justify-items: center;
-    color: #f3f3f3ec;
-    font-size: 1.0rem;
-}
-
-#aboutOption1:hover, #projectsOption1:hover, #contactOption1:hover, #aboutOption2:hover, #projectsOption2:hover, #contactOption2:hover {
-    color: #7700ff;
-}
-
-
 
 /* Switching from small to large screens */
 @media (min-width: 550px) {
@@ -203,6 +159,40 @@ body {
 
     .nav_options_text:hover {
         color: #541177;
+    }
+
+    .image_label {
+        display: none;
+    }
+
+    #pantree_img, #readme_img, #celeb_img {
+        filter: none;
+    }
+
+    .learn_more_atag {
+        display: block;
+        color: #f3f3f3ec;
+        font-size:  1.5rem;  
+        text-decoration: none;
+        text-align: right; 
+        float: right; 
+        margin-right: 2.0rem;
+    }
+    
+    .learn_more_atag:hover {
+        display: block;
+        color: #541177;
+    }
+    
+    .portfolio_item_title, .portfolio_item_text {
+        display: block;
+    }
+
+    .sep_hr {
+        display: block;
+        color: #f3f3f3ec;
+        margin: 4.0rem auto;
+        width: 100%;
     }
 
 }

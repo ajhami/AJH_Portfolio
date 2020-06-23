@@ -1,4 +1,4 @@
-console.log("JS connected!");
+// console.log("JS connected!");
 
 // const contactText = `Alex's Contact Information
 
@@ -27,7 +27,6 @@ let fillIn = {
     contact : {
         img : "./assets/images/email.jpg",
         p : 'Wanna chat? Select "Send a Message" below to reach me via email. You can also call or text me at (916) 541-1880. I look forward to hearing from you!',
-        // p: contactText,
         option1 : {
             title : "Send a Message",
             href : "#"
@@ -41,20 +40,20 @@ let fillIn = {
 
 // Media Query Match Variable
 //let mq = window.matchMedia("min-width: 550px");
-console.log("windowWidth = ", $(window).width());
+// console.log("windowWidth = ", $(window).width());
 
 // For whatever reason, the windowWidth variable reads 534 at 550px
 
 // Media Query Change Event Listener
 $(window).resize(function() {
 
-    console.log("actual = ", $(window).width());
+    // console.log("actual = ", $(window).width());
     if($(window).width() <= 534){
-        console.log("Small Screen");
+        // console.log("Small Screen");
         clearContentLarge();
     }
     else {
-        console.log("Large Screen");
+        // console.log("Large Screen");
         clearContentSmall();
     }
 

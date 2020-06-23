@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./../css/portfolio.css">
     <!-- Metadata Title -->
-    <link rel="icon" href="./../images/my_logo.png">
+    <link rel="icon" href="./../images/my_logo_2.png">
     <title>Alex's Portfolio</title>
 </head>
 <body>
     <!-- Nav Bar -->
     <nav class="row u-full-width titlebar">
         <div class="twelve columns">
-            <img class="ajh" src="./../images/my_logo.png" alt="AJH Logo">
+            <img class="ajh" src="./../images/my_logo_2.png" alt="AJH Logo">
             <div class="nav_options">
                 <a class="nav_options_text" href="./../../index.html">Home | </a>
-                <a class="nav_options_text" href="#">Resume | </a>
-                <a class="nav_options_text" href="./assets/html/projects.html"> Portfolio | </a>
+                <a class="nav_options_text" href="./../images/resume.pdf">Resume | </a>
+                <a class="nav_options_text" href="#"> Portfolio | </a>
                 <a class="nav_options_text" href="#"> Contact Me</a>
             </div>
         </div>
@@ -30,17 +30,57 @@
 
     <div class="container">
 
-        <section class="row portfolio_item pantree_section">
-            <div class="four columns">
+        <section class="row portfolio_item" id="pantree_section">
+            <div class="four columns img_section" id="pantree_img_section">
                 <div id="pantree_img"></div>
+                <span class="image_label">Pantree</span>
+            </div>
+            <div class="eight columns">
+                <h2 class="portfolio_item_title">
+                    Pantree
+                </h2>
+                <p class="portfolio_item_text">
+                    Pantree is a web application designed to optimize and simplify recipe searching and meal planning for individuals and families. Pantree specifically helps users cook with the food they have in their home, organizing their pantry items by expiration date and finding recipe results from the items in the home.
+                </p>
+                <a href="https://github.com/brentp24/pantry/tree/master/controllers" class="learn_more_atag">Learn More</a>
             </div>
         </section>
 
+        <hr class="sep_hr">
 
+        <section class="row portfolio_item" id="readme_section">
+            <div class="eight columns">
+                <h2 class="portfolio_item_title">
+                    README Generator
+                </h2>
+                <p class="portfolio_item_text">
+                    README Generator is a node.js application used to create quick, simple README.md file for your projects. The application was originally built to run in a node environment. I am currently developing a front end website for the application to make it more accessable and appealing to developers.
+                </p>
+                <a href="https://github.com/ajhami/README_generator" class="learn_more_atag">Learn More</a>
+            </div>
+            <div class="four columns img_section" id="readme_img_section">
+                <div id="readme_img"></div>
+                <span class="image_label">README Generator</span>
+            </div>
+        </section>
 
+        <hr class="sep_hr">
 
-
-
+        <section class="row portfolio_item" id="celeb_section">
+            <div class="four columns img_section" id="celeb_img_section">
+                <div id="celeb_img"></div>
+                <span class="image_label">Celebrity Twin</span>
+            </div>
+            <div class="eight columns">
+                <h2 class="portfolio_item_title">
+                    Celebrity Twin
+                </h2>
+                <p class="portfolio_item_text">
+                    Celebrity is an entertainment application where one can upload an image of themself and discover their celebrity doppelgänger! This application demostrates the implentation of basic front-end web design, including html/css, jQuery, and AJAX.
+                </p>
+                <a href="https://github.com/ajhami/celebrity_twin" class="learn_more_atag">Learn More</a>
+            </div>
+        </section>
 
 
 
@@ -64,6 +104,6 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./../javaScript/index.js"></script>
+    <script src="./../javaScript/portfolio.js"></script>
 </body>
 </html>
