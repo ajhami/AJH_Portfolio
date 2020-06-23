@@ -1,10 +1,16 @@
 console.log("JS connected!");
 
+// const contactText = `Alex's Contact Information
+
+// Phone Number: (916) 541-1880
+// Email: alexhami916@gmail.com
+// `;
+
 // Fill-in content object
 let fillIn = {
     aboutMe : {
         img : "./assets/images/about_closeup.jpg",
-        p : "I am a native to the Sacramento valley, living my whole childhood in the golden state. I moved out to Utah to pursue a college education at BYU. I now have a Bachelor's of Statistics and am currently studying Full-Stack Web Development at the University of Utah. I am pursuing a career in web development.",
+        p : "I was born and raised in Sacramento, California and ventured to Utah for a college education at BYU. I have a Bachelor's of Statistics and am currently studying Full-Stack Web Development at the University of Utah.",
         option1 : {
             title : "View Resume",
             href : "./assets/images/resume.pdf"
@@ -12,17 +18,18 @@ let fillIn = {
     },
     projects : {
         img : "./assets/images/projects_personal.jpg",
-        p : "My work and educational experience covers a wide variety projects, from web development, data science, and statistical analytics.",
+        p : "My work and educational experience covers a wide variety projects, from web development, data science, and statistical analytics. I work with a focus to provide new insight to any given problem and produce easy-to-use results.",
         option1 : {
-            title : "View Projects",
-            href : "./assets/html/projects.html"
+            title : "Learn More",
+            href : "./assets/html/portfolio.html"
         }
     },
     contact : {
         img : "./assets/images/email.jpg",
-        p : "Phone Number: (916) 541-1880 \n Email: alexhami916@gmail.com",
+        p : 'Wanna chat? Select "Send a Message" below to reach me via email. You can also call or text me at (916) 541-1880. I look forward to hearing from you!',
+        // p: contactText,
         option1 : {
-            title : "",
+            title : "Send a Message",
             href : "#"
         }
     }

@@ -27,8 +27,9 @@ body {
 }
 
 /* DEFAULT SIZE */
-#about_main, #projects_main, #contact_main {
+.portfolio_item {
     height: 20.0rem;
+    width: 100%;
     /* margin-top: 2.0rem; */
 }
 
@@ -37,8 +38,8 @@ body {
     height: 40.0rem;
 } */
 
-#about_box {
-    background-image: url(./../images/about_distant_shot_sm.jpg);
+#pantree_img {
+    background-image: url(./../images/pantree_preview_lg.png);
 }
 
 #projects_box {
@@ -51,30 +52,14 @@ body {
 
 
 /* DEFAULT SIZE */
-#about_box, #projects_box, #contact_box {
+#pantree_img {
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(1px)
-            opacity(0.5)
-            grayscale(100%);
 }
 
-.active {
-    filter: none;
-}
-
-.inactive {
-    filter: blur(1px)
-    opacity(0.5)
-    grayscale(100%);
-}
-
-.inactive:hover {
-    filter: none;
-}
 
 /* CLICK SIZE */
 /* #about_box, #projects_box, #contact_box {
@@ -113,7 +98,7 @@ body {
     height: 70%;
     margin-left: 10%;
     margin-top: 2.5%;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 #about_select, #projects_select, #contact_select {
@@ -192,15 +177,8 @@ body {
 
     .ajh {
         margin-left: 2.0rem;
-        /* margin-right: auto; */
         float: left;
     }
-
-    /* .tb_name {
-        display: block;
-        float: left;
-        margin: 3.0rem 0 0 0;
-    } */
 
     .tb_title {
         clear: both;
@@ -208,138 +186,6 @@ body {
         display: block;
         font-style: italic;
         margin-left: 3.3rem;
-    }
-
-    /* .nav_options {
-        display: block;
-        margin: 3.5rem 4.0rem 0 0;
-        text-align: right;
-        float: right;
-    }
-    
-    .nav_options_text {
-        color: #f3f3f3ec;
-        font-size:  2.0rem;  
-        text-decoration: none;  
-    } */
-
-
-
-
-
-/* 
-    .topic_box {
-        margin-top: 0;
-        height: 45.0rem;
-    } */
-
-    /* #about_main, #projects_main, #contact_main {
-        height: 45.0rem;
-    } */
-    /* .topic_title {
-        bottom: 10.0rem;
-    } */
-
-    #about_box {
-        background-image: url(./../images/about_distant_shot_lg.jpg);
-    }
-
-    #projects_box {
-        background-image: url(./../images/project_main_lg.jpg);
-    }
-    
-    #contact_box {
-        background-image: url(./../images/contact_main_lg.jpg);
-    }
-
-    #about_title, #projects_title, #contact_title{
-        position: relative;
-        bottom: 40.0rem;
-    }
-
-    #about_box, #projects_box, #contact_box {
-        height: 100%
-    }
-
-    #about_content, #projects_content, #contact_content {
-        display: none;
-    }
-
-    #content_lg {
-        display: none;
-        background-color: #541177;
-        margin-top: 2.0rem;
-        width: 100%;
-        height: 20.0rem;
-    }
-
-    #content_pic_div {
-        float: left;
-        height: 100%;
-        width: 30%;
-    }
-
-    #content_img {
-        margin-left: 30%;
-        margin-top: 8%;
-        width: 50%;
-        height: 78%;
-        padding-right: 19.5%;
-        border-right: solid 0.25rem #000000;
-    }
-
-    #content_text_div {
-        float: left;
-        height: 100%;
-        width: 60%;
-        margin: 0 5%;
-    }
-
-    #content_p {
-        height: 60%;
-        width: 90%;
-        margin-top: 4%;
-        font-size: 1.5rem;
-    }
-
-    #content_select {
-        height: 20%;
-        width: 50%;
-        margin-top: 2%;
-        margin-left: 50%;
-    }
-
-    #option1box {
-        float: left;
-        width: 45%;
-        height: 100%;
-        margin-left: 2.5%;
-        margin-right: 5%;
-    }
-
-    #option2box {
-        float: left;
-        width: 45%;
-        height: 100%;
-    }
-
-    #option1, #option2 {
-        text-align: center;
-        justify-items: center;
-        color: #f3f3f3ec;
-    }
-
-    #option1:hover, #option2:hover {
-        color: #7700ff;
-    }
-
-}
-
-@media (min-width: 1010px) {
-    .tb_name {
-        display: block;
-        float: left;
-        margin: 3.0rem 0 0 0;
     }
 
     .nav_options {
