@@ -61,11 +61,11 @@ body {
 }
 
 #readme_img {
-    background-image: url(./../images/readme_preview_lg.PNG);
+    background-image: url(./../images/readme_preview.PNG);
 }
 
 #celeb_img {
-    background-image: url(./../images/celeb_preview_lg.PNG);
+    background-image: url(./../images/celeb_preview.PNG);
 }
 
 /* DEFAULT SIZE */
