@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./../css/contact.css">
+    <!-- Metadata Title -->
+    <link rel="icon" href="./../images/my_logo_2.png">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="row u-full-width titlebar">
+        <div class="twelve columns">
+            <img class="ajh" src="./../images/my_logo_2.png" alt="AJH Logo">
+            <div class="nav_options">
+                <a class="nav_options_text" href="./../../index.html">Home | </a>
+                <a class="nav_options_text" href="./../images/resume.pdf">Resume | </a>
+                <a class="nav_options_text" href="./portfolio.html"> Portfolio | </a>
+                <a class="nav_options_text" href="#"> Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <hr class="header_hr">
+
+
+
+
+    <div class="container">
+        <section class="row">
+            <div class="four columns contact_pic_section">
+                <div class="contact_pic"></div>
+            </div>
+            <form class="six columns messageForm" method="POST" action="https://script.google.com/macros/s/AKfycbxiNXp3vTw3pqDe9e_b0yO2tQgQj6m7UhCHbO6D/exec">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" class="u-full-width" placeholder="John Doe" id="name">
+
+                <label for="email">Your Email Address</label>
+                <input type="email" name="email" class="u-full-width" placeholder="johndoe@example.com" id="email">
+
+                <label for="message">Your Message</label>
+                <textarea class="u-full-width" placeholder="Hello Alex..." name="message" id="message"></textarea>
+                <!-- cols="30" rows="10" -->
+                <input type="submit" class="button-primary" value="Send">
+            </form>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <hr class="footer_hr">
+        <!-- Social Links Footer -->
+        <section class="row">
+            <div class="twelve columns social_media_buttons">
+                <a href="https://www.facebook.com/alex.hamilton.1044" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/alxhami/" class="fa fa-instagram"></a>
+                <a href="https://github.com/ajhami" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/alexjhamilton/" class="fa fa-linkedin"></a>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./../javaScript/contact.js"></script>
+</body>
+
+</html>

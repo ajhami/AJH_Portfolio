@@ -1,0 +1,218 @@
+body {
+    background-color: #252424;
+    color: #f3f3f3ec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ajh {
+    height: 10.0rem;
+    width: 13.0rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tb_name, .tb_title {
+    display: none;
+}
+
+.nav_options {
+    display: none;
+}
+
+.header_hr {
+    color: #f3f3f3ec;
+    margin-top: 1.0rem;
+    width: 60%;
+}
+
+.portfolio_item {
+    margin-bottom: 1.0rem;
+}
+
+#pantree_section {
+    /* height: 20.0rem; */
+    margin-top: 3.0rem;
+}
+
+.container {
+    margin-top: 2.0rem;
+}
+
+/* DEFAULT SIZE */
+.contact_pic_section {
+    display: none;
+    height: 40.0rem;
+}
+
+#messageInput {
+    height: 14.7rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+    color: #000000;
+}
+
+input[type="submit"].button-primary {
+    background-color: #541177;
+    border-color: #8539ad;
+}
+
+.image_label {
+    color: #f3f3f3ec;
+    background-color: #541177;
+    padding: 1.0rem 4.0rem 1.0rem 0.75rem;
+    position: relative;
+    bottom: 15.0rem;
+}
+
+#pantree_img_section {
+    float: left;
+}
+
+#readme_img_section {
+    float: right;
+}
+
+#pantree_img {
+    background-image: url(./../images/pantree_preview_lg.png);
+}
+
+#readme_img {
+    background-image: url(./../images/readme_preview.PNG);
+}
+
+.contact_pic {
+    background-image: url(./../images/portrait_pic_contact.jpg);
+}
+
+/* DEFAULT SIZE */
+.contact_pic {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#pantree_img:hover, #readme_img:hover, #celeb_img:hover {
+    filter: none;
+}
+
+.learn_more_atag {
+    display: none;
+}
+
+.learn_more_atag:hover {
+    display: none;
+}
+
+.portfolio_item_title, .portfolio_item_text {
+    display: none;
+}
+
+.sep_hr {
+    display: none;
+}
+
+.footer_hr {
+    color: #f3f3f3ec;
+    margin-top: 6.0rem;
+    width: 60%;
+}
+
+.social_media_buttons {
+    text-align: center;
+}
+
+.fa {
+    color: #f3f3f3ec;
+    margin: 0 2.0rem;
+    font-size: 3.0rem;
+}
+
+.fa:hover {
+    color: #541177;
+}
+
+/* Switching from small to large screens */
+@media (min-width: 550px) {
+
+    .header_hr {
+        display: none;
+    }
+
+    #about_main, #projects_main, #contact_main {
+        height: 45.0rem;
+    }
+
+    .ajh {
+        margin-left: 2.0rem;
+        float: left;
+    }
+
+    .tb_title {
+        clear: both;
+        color: #bec5c7c4;
+        display: block;
+        font-style: italic;
+        margin-left: 3.3rem;
+    }
+
+    .nav_options {
+        display: block;
+        margin: 3.5rem 4.0rem 0 0;
+        text-align: right;
+        float: right;
+    }
+    
+    .nav_options_text {
+        color: #f3f3f3ec;
+        font-size:  2.0rem;  
+        text-decoration: none;  
+    }
+
+    .nav_options_text:hover {
+        color: #541177;
+    }
+
+    .contact_pic_section {
+        display: block;
+    }
+
+    .image_label {
+        display: none;
+    }
+
+    #pantree_img, #readme_img, #celeb_img {
+        filter: none;
+    }
+
+    .learn_more_atag {
+        display: block;
+        color: #f3f3f3ec;
+        font-size:  1.5rem;  
+        text-decoration: none;
+        text-align: right; 
+        float: right; 
+        margin-right: 2.0rem;
+    }
+    
+    .learn_more_atag:hover {
+        display: block;
+        color: #541177;
+    }
+    
+    .portfolio_item_title, .portfolio_item_text {
+        display: block;
+    }
+
+    .sep_hr {
+        display: block;
+        color: #f3f3f3ec;
+        margin: 4.0rem auto;
+        width: 100%;
+    }
+
+}

@@ -29,7 +29,7 @@ let fillIn = {
         p : 'Wanna chat? Select "Send a Message" below to reach me via email. You can also call or text me at (916) 541-1880. I look forward to hearing from you!',
         option1 : {
             title : "Send a Message",
-            href : "#"
+            href : "./assets/html/contact.html"
         }
     }
 }
