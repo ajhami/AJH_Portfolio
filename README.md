@@ -1,11 +1,8 @@
-# AJH Portfolio
-
-## Week 8
-## April 20th, 2020
+# My Portfolio
 
 Deployed application: https://ajhami.github.io/AJH_Portfolio/
 
-This assignment takes an early assignment to create a personal portfolio and update it with newer skills and features. There are still a couple bugs to be resolved with the responsive portfolio!
+This GitHub Page serves as a professional portfolio to Alexander Hamilton Hamilton. The portfolio contains information on personal life, educational background and project-based experience. The portfolio itself also serves as a demonstration of front-end web development skills, such as html, css and JavaScript.
 
 ![AJH_Portfolio](./assets/images/portfolio_screenshot.PNG)
 
